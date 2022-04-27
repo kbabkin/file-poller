@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="181px" preserveAspectRatio="none" style="width:740px;height:181px;background:#FFFFFF;" version="1.1" viewBox="0 0 740 181" width="740px" zoomAndPan="magnify"><defs/><g><g id="elem_Scanner"><rect fill="#F1F1F1" height="36.2969" style="stroke:#181818;stroke-width:0.5;" width="73" x="149" y="68"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="156" y="82.9951">Scanner</text><line style="stroke:#181818;stroke-width:0.5;" x1="150" x2="221" y1="88.2969" y2="88.2969"/></g><g id="elem_FileMaturityChecker"><rect fill="#F1F1F1" height="36.2969" style="stroke:#181818;stroke-width:0.5;" width="156" x="375" y="68"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="382" y="82.9951">FileMaturityChecker</text><line style="stroke:#181818;stroke-width:0.5;" x1="376" x2="530" y1="88.2969" y2="88.2969"/></g><g id="elem_Sender"><rect fill="#F1F1F1" height="36.2969" style="stroke:#181818;stroke-width:0.5;" width="65" x="669" y="60"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="676" y="74.9951">Sender</text><line style="stroke:#181818;stroke-width:0.5;" x1="670" x2="733" y1="80.2969" y2="80.2969"/></g><g id="elem_FilePoller"><rect fill="#F1F1F1" height="36.2969" style="stroke:#181818;stroke-width:0.5;" width="79" x="7" y="139"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="14" y="153.9951">FilePoller</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="85" y1="159.2969" y2="159.2969"/></g><!--MD5=[cdd82c247c56d51fba38409291671e47]
+link FilePoller to Scanner--><g id="link_FilePoller_Scanner"><path codeLine="10" d="M82.43,138.9 C101.51,129.01 125.21,116.73 144.97,106.49 " fill="none" id="FilePoller-to-Scanner" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="149.64,104.07,139.8086,104.6554,145.1997,106.3687,143.4864,111.7598,149.64,104.07" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4e0ea4a2c9df9c438fdfd11c45ab3560]
+link FilePoller to FileMaturityChecker--><g id="link_FilePoller_FileMaturityChecker"><path codeLine="11" d="M86.29,150.19 C151.23,138.79 283.36,115.6 369.74,100.44 " fill="none" id="FilePoller-to-FileMaturityChecker" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="374.85,99.54,365.291,97.1681,369.9264,100.4106,366.6839,105.0459,374.85,99.54" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[76201614f9fec3ae5fc836e5384b7def]
+link FilePoller to Sender--><g id="link_FilePoller_Sender"><path codeLine="12" d="M86.06,156.73 C168.4,155.6 367.27,149.82 531,121 C577.45,112.82 629.95,98.74 664.05,88.92 " fill="none" id="FilePoller-to-Sender" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="668.94,87.51,659.1847,86.1555,664.1351,88.893,661.3976,93.8434,668.94,87.51" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ce43c76a236b80d30b1df8222df305d8]
+link Scanner to FileMaturityChecker--><g id="link_Scanner_FileMaturityChecker"><path codeLine="14" d="M222.03,86 C259.6,86 320.16,86 369.71,86 " fill="none" id="Scanner-to-FileMaturityChecker" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="374.77,86,365.77,82,369.77,86,365.77,90,374.77,86" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="91" x="253" y="82.0814">NewFileFound</text></g><!--MD5=[b28841d2c7fdfdd62b53f0963b030b77]
+link FileMaturityChecker to Sender--><g id="link_FileMaturityChecker_Sender"><path codeLine="15" d="M531.32,83.49 C575.59,82.05 629.1,80.32 663.92,79.19 " fill="none" id="FileMaturityChecker-to-Sender" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="668.91,79.03,659.7888,75.3147,663.9125,79.1871,660.0401,83.3107,668.91,79.03" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="76" x="562" y="77.0814">FileMatured</text></g><!--MD5=[5bf595728a3d0f27dfa667e62190368e]
+link Scanner to Scanner--><g id="link_Scanner_Scanner"><path codeLine="16" d="M175.1,67.81 C169.88,51.06 173.35,33 185.5,33 C196.42,33 200.32,47.57 197.22,62.68 " fill="none" id="Scanner-to-Scanner" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="195.9,67.81,202.0117,60.0868,197.1429,62.9669,194.2628,58.0982,195.9,67.81" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="71" x="150" y="24.0814">reschedule</text></g><!--MD5=[10d4411b83b6076f1b295d22962f7159]
+link FileMaturityChecker to FileMaturityChecker--><g id="link_FileMaturityChecker_FileMaturityChecker"><path codeLine="17" d="M430.68,67.81 C419.47,51.06 426.91,33 453,33 C476.65,33 484.97,47.83 477.98,63.08 " fill="none" id="FileMaturityChecker-to-FileMaturityChecker" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="475.32,67.81,483.2251,61.9355,477.7761,63.4548,476.2567,58.0058,475.32,67.81" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="46" x="430" y="24.0814">refresh</text></g><!--MD5=[d61935ccbac61adc0c7d3376d582e1b1]
+@startuml
+left to right direction
+
+object FilePoller
+together {
+    object Scanner
+    object FileMaturityChecker
+    object Sender
+}
+
+FilePoller ..> Scanner
+FilePoller ..> FileMaturityChecker
+FilePoller ..> Sender
+
+Scanner             - -> FileMaturityChecker : NewFileFound
+FileMaturityChecker - -> Sender : FileMatured
+Scanner             -> Scanner : reschedule
+FileMaturityChecker -> FileMaturityChecker : refresh
+
+@enduml
+
+PlantUML version 1.2022.4(Sat Apr 09 16:29:17 MSK 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: ru
+Country: RU
+--></g></svg>

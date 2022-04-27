@@ -1,0 +1,20 @@
+@startuml
+left to right direction
+
+object FilePoller
+together {
+    object Scanner
+    object FileMaturityChecker
+    object Sender
+}
+
+FilePoller ..> Scanner
+FilePoller ..> FileMaturityChecker
+FilePoller ..> Sender
+
+Scanner             --> FileMaturityChecker : NewFileFound
+FileMaturityChecker --> Sender : FileMatured
+Scanner             -> Scanner : reschedule
+FileMaturityChecker -> FileMaturityChecker : refresh
+
+@enduml
